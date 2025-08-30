@@ -24,6 +24,15 @@ data Type
 
 ---------------------------
 
+class Node i o m where
+  evalNode :: m -> i -> o
+
+---------------------------
+
+instance Node 
+
+---------------------------
+
 data NodeId
 
 data NodeNetwork
