@@ -18,6 +18,8 @@ The `JIT` and `Compiled` regimes will require a rust compile server (for the web
 
 ## Nodes
 
+> See [Creating Nodes in Graphite](https://github.com/GraphiteEditor/Graphite/tree/master/node-graph)
+
 * `(Atomic)Nodes` are functions written in Rust
   * every node has precompiled bytecode that ships with Graphite for use in the interpreted regime
 
@@ -31,6 +33,8 @@ The `JIT` and `Compiled` regimes will require a rust compile server (for the web
 | Graph/network | Abstract syntax tree (AST) |
 | Graph compilation | Linking/JIT optimization/compilation |
 | Graph execution | Program execution |
+
+------------------------------
 
 ## Code Links
 
